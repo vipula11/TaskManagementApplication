@@ -14,8 +14,8 @@
     <link href="~/Content/ui-bootstrap-csp.css" rel="stylesheet" />
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
     <script src="~/AngularScripts/App.js"></script>
-    @*<script src="~/AngularScripts/homeController.js"></script>*@
-    @*<script src="~/AngularScripts/route.js"></script>*@
+    <script src="~/AngularScripts/taskController.js"></script>
+    <script src="~/AngularScripts/route.js"></script>
    
     
     @Styles.Render("~/Content/css")
@@ -39,8 +39,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <a class="navbar-brand" href="#!/CreateTask">Create Task</a>
+            </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="/">Create Dashboard</a>
             </div>
+          
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>

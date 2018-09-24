@@ -16,8 +16,8 @@ namespace TaskManagementApplication
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+            routeTemplate: "{area=exists}/{controller=Users}/{action=Index}/{id=UrlParameter.Optional}",
+              defaults: new { id = RouteParameter.Optional }
             );
         }
     }
