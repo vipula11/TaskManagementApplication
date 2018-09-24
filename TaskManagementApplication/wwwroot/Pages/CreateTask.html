@@ -1,0 +1,81 @@
+﻿<div class="container">
+    <!-- <div class="well">-->
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane active in">
+            <form name="myForm">
+                <br />
+                <div id="legend">
+                    <legend class="alert-info"> Create Task</legend>
+
+                </div>
+                <div class="control-group">
+                    <!-- Username -->
+                    <label class="control-label" for="username">Task Id</label>
+                    <div class="controls">
+                        <input class="form-control" type="text" placeholder="Enter Task Id here" ng-model="taskID" required>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <!-- Username -->
+                    <label class="control-label" for="username">Title</label>
+                    <div class="controls">
+                        <input class="form-control" type="text" placeholder="Enter Title here" ng-model="title" required>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <!-- Username -->
+                    <label class="control-label" for="username">Description</label>
+                    <div class="controls">
+                        <input class="form-control" type="text" placeholder="Enter Description here" ng-model="description" required>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <!-- Username -->
+                    <label class="control-label" for="username">Assignee</label>
+                    <div class="controls">
+                        <input class="form-control" type="text" placeholder="Enter Name of Assignee here" ng-model="assignee" required>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <!-- Username -->
+                    <label class="control-label" for="username">Reporter</label>
+                    <div class="controls">
+                        <input class="form-control" type="text" placeholder="Enter Name of Reporter here" ng-model="reporter" required>
+                    </div>
+                </div>
+
+
+
+                <div class="control-group">
+                    <!-- Username -->
+                    <label class="control-label" for="username">Comments</label>
+                    <div class="controls">
+                        <input class="form-control" type="text" placeholder="Enter Comments here" ng-model="comments" required>
+                    </div>
+
+                    <div class="control-group">
+                        <!-- Username -->
+                        <label class="control-label" for="username">Duration</label>
+                        <div class="controls">
+                            <input class="form-control" type="text" placeholder="Enter TaskDuration here" ng-model="duration" required>
+                        </div>
+                        <br />
+
+                        <div class="control-group">
+                            <!-- Button -->
+                            <div class="controls">
+                                <input type="submit" ng-click="addTask()" value="Add Task" class="btn btn-success" />
+                            </div>
+                        </div>
+
+
+</form>
+        </div>
+
+        <br />
+        <br />
+
+        <!--</div>-->
+    </div>
